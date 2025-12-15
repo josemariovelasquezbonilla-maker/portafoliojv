@@ -1,0 +1,270 @@
+:root{
+	--color-general-letra:		#fff    						;
+	--color-general-fondo:		#000  							;
+
+	--color-titulos:			#303030 						;
+	--color-hover-menu:			#fe8f01 						;
+	--fondo-header:				#202020 						;
+	--fondo-footer: 			#353330 						;
+	--letra-footer: 			#777 							;
+}
+*{
+	margin: 					0								;
+	padding: 					0								;
+}
+body{
+	font-family: 			'Courier New', Courier, monospace	;
+	font-size: 				16px 						 		;
+	color: 					var(--color-general-letra)		   	;
+	background: 			linear-gradient(to bottom,var(--color-general-fondo), #333)	;
+	box-sizing: 			border-box 							;
+}
+footer{
+	background-color: 		var(--fondo-footer) 				;
+	padding: 				15px 0 								;
+	color: 					var(--letra-footer) 				;
+	text-align: 			center 								;
+}
+footer img {
+    margin-bottom: 			25px 								;
+    margin-top: 			10px 								;
+}
+/* ******************** Barra del Menu ************************ */
+.navbar-toggler-icon{
+	border: 				1px solid #fff						;  /* border del icon */
+}
+.navbar-light .navbar-toggler-icon {                      			 /* fondo de icon */ 
+    background-color: 		#777 								;
+}
+.navbar-light .navbar-toggler{
+	background-color: 		#777                      			;  /* alrededor fondo */
+	border:					1px solid #777            			;  /* alrededor borde */
+}
+.navbar-light {
+	background-color:transparent!important 						;
+	font-size: 				16px								;
+	text-transform: 		uppercase 							;
+}
+/*  ************************ sub menu  **************************** */
+.dropdown-menu .dropdown-item {
+    background-color: 		transparent			 				;
+	color:  				#fff !important           		   ;
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color:		transparent                 		;
+	color: 			 	  	var(--color-hover-menu)  !important ;
+}
+.dropdown-menu{
+	background-color:		transparent 						;
+}
+.navbar-redes-sociales{
+	font-size:  			22px 								;
+}
+.dropdown:hover .dropdown-menu { 							/* al pasar sobre el sup menu aparece */
+    display: 				block								;
+    margin-top: 			0 									;
+}
+/*  ************************ hero  **************************** */
+.separa{
+	padding: 				13vh 0 0 0							;
+}
+.logo{
+	height: 				40px								;
+}
+.titulo{
+	font-size: 				34px 								;
+	font-weight: 			900									;
+}
+.subtitulo{
+	font-size: 				24px								;
+
+}
+/*  ************************ sec03  **************************** */
+.card{
+	max-width: 				850px;
+	min-width: 				550px;
+	background-color: 		#48e ;
+	color: 					#fff;
+	padding: 				20px;
+}
+
+#sec01 img{
+	height: 				180px 					;
+	border-radius: 			100%					;
+}
+
+
+#sec03 img{
+	
+	width: 					60px 					;
+}
+
+/*  ************************ p01  **************************** */
+.text-decoration-none{
+	text-decoration: 		none 								;
+}
+.box{
+	width: 					350px								;
+	height: 				250px 								;
+	font-size:  			36px 								;
+	text-align: 			center								;
+	line-height: 			250px								;
+	margin-bottom: 			20px 								;
+	color: 					#fff 							   ;
+	background-size:  	 	cover       			    		; 
+	background-position: 	top                     			;
+	background-repeat: 		no-repeat 							;
+	background-blend-mode: 	multiply      						;  /* agregar una Capa de color */ 
+	background-color:    	rgba(0, 0, 0, 0.65) 	  		   ;
+}
+.box-1{
+	background-image: 	 	url("../img/ret01.jpg")				; 
+	
+}
+.box-2{
+	background-image: 	 	url("../img/pol01.jpg")				; 	
+}
+.box-3{
+	background-image: 	 	url("../img/con01.jpg")				; 	
+}
+/*  ************************ p20 Formulario de Contacto************ */
+label{
+	padding-left:  			08px 								;
+}
+#formContacto{
+	font-family: 			sans-serif 							;
+	color: 					#eee							   ;
+	background-color: 		transparent							;
+}
+h2{
+	text-align: 			center 								;
+	margin-bottom: 			10px								;
+	text-transform: 		uppercase 							;
+	font-weight: 			400									;
+	font-size: 				22px								;
+	padding: 				10px								;			
+}
+form{
+	background-color: 		transparent							;
+	padding: 				20px 0								;
+	margin: 				auto 								;
+	box-shadow: 			0 0 55px #0006					   ;
+}
+.form_input{
+	padding: 				06px 20px 							;
+}
+input, textarea, select{
+	width: 					100%								;
+	box-sizing:				border-box							;
+	padding: 				6px 12px							;
+	border: 				1px solid #999					   ;
+	border-radius: 			8px									;
+	box-shadow: 			0 0 55px #fff2					   ;
+	background-color: 		transparent							;
+	color: 					#eee							   ;	
+}
+textarea{
+	font-family: 			'Courier New', Courier, monospace   ;
+	min-width: 				100%								;
+	min-height: 			102px								;
+	resize: 				none 								;
+}
+label{
+	font-size: 				1.0em	 							;
+	line-height: 			2									;
+}
+.checkbox{
+	width: 					auto 								;
+}
+option{
+	background-color: 		var(--color-general-fondo)			;
+	width: 					20px								;
+}
+#enviar{
+	max-width: 				1200px								;
+}
+.final input:hover{
+	background-color: 		#fff 							   ;
+	color: 					#000 							   ;
+}
+
+fieldset{
+	border: 				1px solid #666						;
+	border-radius: 			5px									;
+	margin: 				20px 20px 							;
+	padding: 				8px	6px 20px 6px 					;
+}
+legend{
+	padding: 				0	6px								;
+	color: 					#666								;
+}
+
+/*  ************************ p10 Cajas Flexibles ************ */
+.flexbox{
+	text-align: 			center 								;
+	line-height: 			150px 								;
+	font-size: 				50px 								;
+	color: 					#000 								;
+	display: 				flex 								;
+	flex-flow: 				row nowrap                          ;
+	grid-gap: 				20px 								;
+	justify-content: 		center 	; /* star center end  space-between  space-araund*/
+	align-items: 			stretch;
+	align-content: 			flex-start;
+}
+.flex-item{
+	width: 					150px								;
+	height: 				150px								;
+}
+.caja-1{
+	background-color: 		#e48								;
+}
+.caja-2{
+	background-color: 		#4e8								;
+}
+.caja-3{
+	background-color: 		#48e 								;
+}
+.caja-4{
+	background-color: 		#ee8								;
+}
+.caja-5{
+	background-color: 		#e8e								;
+}
+/*  ************************ p30 sin *********** ************ */
+.encabezado{
+	height: 				100vh								;									;
+	box-sizing: 			border-box 							; 
+}
+.header__overlay{
+	height: 				100vh								;
+	width:					100vw								;
+	background-color:    	rgba(0, 0, 0, 0.25) 	  		    ;	
+	background-size:  	 	cover       			    		; 
+	background-position: 	top                     			;
+	background-repeat: 		no-repeat 							;
+	background-blend-mode: 	multiply      						;  /* agregar una Capa de color */ 
+	background-image: 	 	url("../img/img01.jpg")				;
+	background-color:    	rgba(0, 0, 0, 0.65) 	  		    ;
+	position: 				absolute 							;			
+}
+#logoimg{
+	height: 				80px								;
+}
+.img-fluid{
+	padding: 				0;
+	margin: 				0;
+}
+
+#sec04 #pr{
+	text-align: 			justify 							;
+}
+
+#sec10 p{
+	text-align: 			justify 							;
+}
+
+#img10{
+	height: 				180px 					;
+	border-radius: 			100%					;
+}
